@@ -59,6 +59,12 @@ object SpotifyService {
     fun pause() {
         mSpotifyAppRemote?.playerApi?.pause()
     }
+    fun next() {
+        mSpotifyAppRemote?.playerApi?.skipNext()
+    }
+    fun previous() {
+        mSpotifyAppRemote?.playerApi?.skipPrevious()
+    }
 
     fun getCurrentTrack(handler: (track: Track) -> Unit) {
         mSpotifyAppRemote?.playerApi?.playerState?.setResultCallback { result ->
