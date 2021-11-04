@@ -13,11 +13,11 @@ class PlayerActivity : AppCompatActivity()  {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_player)
-        setupViews()
-        setupListeners()
+        //setupViews()
+        //setupListeners()
     }
 
-    private fun setupViews () {
+    /*private fun setupViews () {
         SpotifyService.getCurrentTrackImage {
             trackImageView.setImageBitmap(it)
         }
@@ -84,5 +84,5 @@ class PlayerActivity : AppCompatActivity()  {
     override fun onStop() {
         super.onStop()
         SpotifyService.disconnect()
-    }
+    } */
 }

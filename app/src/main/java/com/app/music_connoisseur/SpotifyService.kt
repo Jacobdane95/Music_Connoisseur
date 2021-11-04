@@ -3,7 +3,7 @@ package com.app.music_connoisseur
 import android.content.Context
 import android.graphics.Bitmap
 import android.util.Log
-import com.spotify.android.appremote.api.ConnectionParams
+/*import com.spotify.android.appremote.api.ConnectionParams
 import com.spotify.android.appremote.api.Connector
 import com.spotify.android.appremote.api.SpotifyAppRemote
 import com.spotify.protocol.types.ImageUri
@@ -104,4 +104,4 @@ object SpotifyService {
         }
     }
 
-}
+}*/
