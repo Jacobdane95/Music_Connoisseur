@@ -45,7 +45,7 @@
 
     <LinearLayout
 
-        android:layout_width="wrap_content"
+        android:layout_width="350dp"
         android:layout_height="25dp"
         android:layout_marginTop="100dp"
         android:layout_weight="1"
@@ -61,22 +61,25 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingBottom="40dp"
             android:orientation="horizontal" >
         <ImageView
             android:layout_width="150dp"
-            android:layout_height="60dp"
-            android:gravity="center"
+            android:layout_height="45dp"
+            android:gravity="left"
             android:alpha="1.0"
-            android:src="@drawable/spotify_logo" />
+            android:src="@drawable/spotify_dark" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/connectButton"
-            android:background="@drawable/custom_button"
             android:layout_width="100dp"
             android:layout_height="45dp"
-            android:layout_gravity="center"
+            android:layout_gravity="right"
+            android:layout_marginLeft="55dp"
+            android:background="@drawable/custom_button"
             android:text="Connect"
-            android:textColor="@color/White" />
+            android:fontFamily="@font/lato_bold"
+            android:textColor="@color/Black" />
 
         </LinearLayout>
 
@@ -86,23 +89,24 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal" >
 
-            <com.google.android.material.imageview.ShapeableImageView
+            <ImageView
                 android:layout_width="150dp"
-                android:layout_height="60dp"
+                android:layout_height="45dp"
                 android:background="@drawable/image_rounded"
-                android:gravity="center"
+                android:gravity="left"
                 android:alpha="1.0"
-                android:src="@drawable/youtube_music_dark"
-                app:shapeAppearanceOverlay="@style/roundimageview"/>
+                android:src="@drawable/youtube_music_dark"/>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/connectButton2"
-                android:background="@drawable/custom_button"
                 android:layout_width="100dp"
                 android:layout_height="45dp"
-                android:layout_gravity="center"
+                android:layout_gravity="right"
+                android:layout_marginLeft="55dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/lato_bold"
                 android:text="Connect"
-                android:textColor="@color/White" />
+                android:textColor="@color/Black" />
 
         </LinearLayout>
 
